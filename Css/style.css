@@ -79,10 +79,12 @@ nav ul li a {
   right: 0;
   bottom: 0;
   z-index: -1;
+  overflow: hidden;
 }
 
 .welcome-content,
 .about-content,
+.skills-content,
 .develop-content,
 .projects-content,
 .contact-content,
@@ -144,7 +146,6 @@ nav ul li a {
 
 .skills-content {
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
   color: #fff;
   text-align: center;
   width: 100%;
