@@ -71,7 +71,7 @@ nav ul li a {
   width: 100%;
   height: 100%;
   z-index: -1;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .back-video {
@@ -158,9 +158,43 @@ nav ul li a {
   padding: 20px;
 }
 
+.skills-content ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+}
+.skills-content ul li {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-item img {
+  width: 144px;
+  height: 144px;
+}
+
+.skill-item figcaption {
+  margin-top: 10px; /* Space between image and caption */
+  font-size: 16px;
+  color: #fff;
+}
+
 @media (max-aspect-ratio: 16/9) {
   .back-video {
     width: auto;
     height: 100%;
-  } */
-/* }
+  }
+}
